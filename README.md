@@ -1,75 +1,53 @@
-# Team Games Wiki
-# Description: 
-the porgram shows the basic features of games with using 3 interfaces BallType, Rules, ShoesType. Program will show rules, ball and shoes features.
+# Hdmi-to-vga adapter
+
+This program allows to connect hdmi cable to vga socket with using structural adapter pattern.
 # Pattern:
-It uses Creational Absract Factory pattern, with using 4 interfaces, 12 classes and Main class to show tests.
+It uses Structural Adapter pattern, with using 2 interfaces, 3 classes and Main class to show tests.
 # Tests:
-You need to input 1, if you want information about basketball, 
-2, if you want information about football, and 3,if you want information about volleyball.
+We have a new display that has a hdmi socket and doesn't have a vga socket and that has a vga socket and doesn't have a hdmi socket. So to connect display to case we use hmdi-to-vga connecter.
+For user is given a qestion to answer with inserting a number. If he choose 1, it will show to user that display and case was connected successfully.
+if he choose 2, user will quit from porgram.
+If he choose not 1 or 2, it will send a message that user should rerun program and choose only 1 or 2.
+
 Case 1:
-```bash 
-Hello, Let's take a sport what about you want to know more
-1.Basketball
-2.Football
-3.Volleyball
-Choose:
+```bash
+New Display has a hdmi socket and doesn't have a vga socket.
+Old Case has a vga socket and doesn't have a hdmi socket.
+Do you wan to Connect Display and Case with using adapter hmdi-to-vga?
+Choose number:
+1.Yes
+2.No
 1
-Rules:
-Basketball is a team sport in which two teams with 5 players each. Primary objective of shooting a ball through the defender's hoop.
+Connect via hdmi
+With using hmdi-to-vga adapter
 
- Basketball ball's characteristics:
- Diameter(cm): 23,85 - 24,84
- Weight(gram): 567 - 650
- Color: Orange(may have other variations)
-
-Shoes:
-Features:soft sole, the material must be made of leather and have mesh inserts, high.
-```
+Process finished with exit code 0
+ ```
 Case 2:
-```bash 
-Hello, Let's take a sport what about you want to know more
-1.Basketball
-2.Football
-3.Volleyball
-Choose:
+```bash
+New Display has a hdmi socket and doesn't have a vga socket.
+Old Case has a vga socket and doesn't have a hdmi socket.
+Do you wan to Connect Display and Case with using adapter hmdi-to-vga?
+Choose number:
+1.Yes
+2.No
 2
-Rules:
-Football is a team sport in which two teams with 11 players each. Primary objective of scoring a ball to the opponents football gate.
+Bye
 
- Football ball's characteristics:
- Diameter(cm): 21,65 - 22,28
- Weight(gram): 410 - 450
- Color: White and Black(may have other variations)
+Process finished with exit code 0
 
-Shoes:
-Features: solid sole with the presence of spikes, light.
-```
+ ```
 Case 3:
-```bash 
-Hello, Let's take a sport what about you want to know more
-1.Basketball
-2.Football
-3.Volleyball
-Choose:
-3
-Rules:
-Volleyball is a team sport in which two teams with 6 players each. Primary objective trying to score points by grounding a ball on the other team's court.
-
-Volleyball ball's characteristics:
- Diameter(cm): 20,7 - 21,3
- Weight(gram): 260 — 280
- Color: Yellow and Blue(may have other variations)
-
-Shoes:
-Features:Good cushioning, elastic sole with high coefficient of friction, high-quality ventilation, high.
-```
-Case 4:
-```bash 
-Hello, Let's take a sport what about you want to know more
-1.Basketball
-2.Football
-3.Volleyball
-Choose:
+```bash
+New Display has a hdmi socket and doesn't have a vga socket.
+Old Case has a vga socket and doesn't have a hdmi socket.
+Do you wan to Connect Display and Case with using adapter hmdi-to-vga?
+Choose number:
+1.Yes
+2.No
 4
-Please, refresh the program and choose number between 1-3 only.
-```
+Please restart a program and enter number between 1-2 only
+
+Process finished with exit code 0
+
+ ```
